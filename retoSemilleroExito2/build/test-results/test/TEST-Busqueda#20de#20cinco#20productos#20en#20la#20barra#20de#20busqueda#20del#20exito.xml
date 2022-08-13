@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Busqueda de cinco productos en la barra de busqueda del exito" tests="5" skipped="0" failures="1" errors="0" timestamp="2022-08-13T23:21:58" hostname="FLIAGUERREROCAM" time="118.802">
+  <properties/>
+  <testcase name="https://www.exito.com/&lt;productos&gt;CONSOLA SERIES S XBOX RRS00004" classname="Busqueda de cinco productos en la barra de busqueda del exito" time="21.595"/>
+  <testcase name="https://www.exito.com/&lt;productos&gt;Estufa piso con horno Gas 4Pts ABBA AT1015N" classname="Busqueda de cinco productos en la barra de busqueda del exito" time="19.704"/>
+  <testcase name="https://www.exito.com/&lt;productos&gt;Televisor LG 65 Pulgadas Uhd4K Smart TV OLED65A1PSA.AWC" classname="Busqueda de cinco productos en la barra de busqueda del exito" time="39.904"/>
+  <testcase name="https://www.exito.com/&lt;productos&gt;Celular SAMSUNG Galaxy M32 128 GB Negro" classname="Busqueda de cinco productos en la barra de busqueda del exito" time="18.126"/>
+  <testcase name="https://www.exito.com/&lt;productos&gt;Nevera HACEB No Frost 243 9002257" classname="Busqueda de cinco productos en la barra de busqueda del exito" time="19.423">
+    <failure message="java.lang.AssertionError: &#10;Expected: an element containing 'Nevera HACEB No Frost 243 9002257'&#10;     but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: an element containing 'Nevera HACEB No Frost 243 9002257'
+     but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at com.exito.www.stepDefinitions.BusquedaOutlineStepDefinition.validoElNombreDeLosCincoProducto(BusquedaOutlineStepDefinition.java:33)
+	at ✽.valido el nombre de los cinco producto Nevera HACEB No Frost 243 9002257(src/test/resources/com.exito.www.features/busquedaOutline.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 1295
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660432919.243][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 13, 2022 6:21:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Https
+----------------------------------------------------------------------------
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 43473
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660432940.807][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 13, 2022 6:22:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Https
+----------------------------------------------------------------------------
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 22635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660432960.524][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 13, 2022 6:22:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Https
+----------------------------------------------------------------------------
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 17630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660433000.465][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 13, 2022 6:23:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Https
+----------------------------------------------------------------------------
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 10058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660433018.601][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 13, 2022 6:23:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Https
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then Nombre de productos should be an element containing 'Nevera HACEB No Frost 243 9002257'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element containing 'Nevera HACEB No Frost 243 9002257' but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []
+]]></system-err>
+</testsuite>

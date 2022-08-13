@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Busqueda de tres productos en la barra de busqueda del exito","Buscar productos en la pagina del exito","FAILURE","2022-08-13T18:19:45.985-05:00[America/Bogota]","0.0","67.44"
+"Busqueda de cinco productos en la barra de busqueda del exito","Https","FAILURE","2022-08-13T18:21:58.146-05:00[America/Bogota]","0.0","118.69"

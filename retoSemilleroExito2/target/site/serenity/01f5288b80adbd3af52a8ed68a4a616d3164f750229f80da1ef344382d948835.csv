@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"seleccion aleatoria de un producto dentro de una categoria","seleccionar de manera aleatoria un producto de la categoria nevera","SUCCESS","2022-08-13T18:18:38.203-05:00[America/Bogota]","0.0","64.98"
+"buscar tres productos desde la barra de busqueda del exito inyectando data desde excel","buscar tres productos desde la barra de busqueda de la pagina del exito","SUCCESS","2022-08-13T18:20:54.749-05:00[America/Bogota]","0.0","62.18"

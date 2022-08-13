@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Busqueda de cinco productos en la barra de busqueda del exito" skipped="0" tests="5" time="118.69" timestamp="2022-08-13 06:21:58"><testcase name="Https"><failure message="&#10;Expected: an element containing 'Nevera HACEB No Frost 243 9002257'&#10;     but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []" type="java.lang.AssertionError">
+Expected: an element containing 'Nevera HACEB No Frost 243 9002257'
+     but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []</failure><system-err>
+Expected: an element containing 'Nevera HACEB No Frost 243 9002257'
+     but:  was the element identified by xpath: //span[@class='vtex-store-components-3-x-productBrand '] []&#13;
+com.exito.www.stepDefinitions.BusquedaOutlineStepDefinition.validoElNombreDeLosCincoProducto(BusquedaOutlineStepDefinition.java:33)&#13;
+✽.valido el nombre de los cinco producto Nevera HACEB No Frost 243 9002257(src/test/resources/com.exito.www.features/busquedaOutline.feature:7)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"seleccion aleatoria de un producto dentro de una categoria","seleccionar de manera aleatoria un producto de la categoria nevera","SUCCESS","2022-08-13T18:18:38.203-05:00[America/Bogota]","0.0","64.98"
+"Busqueda de tres productos en la barra de busqueda del exito","Buscar productos en la pagina del exito","FAILURE","2022-08-13T18:19:45.985-05:00[America/Bogota]","0.0","67.44"
+"buscar tres productos desde la barra de busqueda del exito inyectando data desde excel","buscar tres productos desde la barra de busqueda de la pagina del exito","SUCCESS","2022-08-13T18:20:54.749-05:00[America/Bogota]","0.0","62.18"
+"Busqueda de cinco productos en la barra de busqueda del exito","Https","FAILURE","2022-08-13T18:21:58.146-05:00[America/Bogota]","0.0","118.69"
